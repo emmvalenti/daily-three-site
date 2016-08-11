@@ -1097,8 +1097,11 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: white;
   text-decoration: none;
+  font-family: 'Slabo 27px', serif;
+  font-size: 16px;
+  padding: 30px;
 }
 a:hover,
 a:focus {
@@ -4313,6 +4316,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 1px;
+  background-color: rgba(127,215,157,.5);
 }
 .navbar-fixed-bottom {
   bottom: 0;
@@ -6797,4 +6801,5 @@ button.close {
     display: none !important;
   }
 }
-/*# sourceMappingURL=bootstrap.css.map */
+/*# sourceMappingURL=bootstrap.css.map */ 
+/*modified by adding background color// ev */

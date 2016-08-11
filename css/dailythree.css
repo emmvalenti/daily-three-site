@@ -5,16 +5,26 @@ body {
 body {
     padding-top: 100px;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 footer {
     padding: 30px 0;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /*
  * Custom styles
  */
 .navbar-brand {
-    font-size: 24px;
+    font-size: 36px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Slabo 27px', serif;
 }
 
 .navbar-container {
@@ -43,3 +53,4 @@ footer {
     transition: 0.8s;
     -webkit-transition:  0.8s;
 }
+
